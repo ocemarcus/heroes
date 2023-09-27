@@ -1,0 +1,40 @@
+{
+  "name": "heroes-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "start": "node build/index.js",
+    "build": "tsup src --out-dir build",
+    "start:dev": "tsx watch src",
+    "prisma": "npx prisma",
+    "prisma:d": "prisma deploy",
+    "prisma:s": "prisma studio",
+    "prisma:m": "prisma migrate dev",
+    "prisma:g": "prisma generate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.1.0",
+    "@types/node": "^20.7.0",
+    "eslint": "^8.50.0",
+    "prettier": "^3.0.3",
+    "prisma": "^5.3.1",
+    "tsup": "^7.2.0",
+    "tsx": "^3.13.0",
+    "typescript": "^5.2.2",
+    "vite-tsconfig-paths": "^4.2.1",
+    "vitest": "^0.34.5"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.3.1",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.23.2",
+    "reflect-metadata": "^0.1.13",
+    "tsyringe": "^4.8.0",
+    "zod": "^3.22.2"
+  }
+}

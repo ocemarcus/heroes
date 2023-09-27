@@ -1,0 +1,10 @@
+node_modules
+build
+.env
+coverage
+tags
+nvim.*
+
+*.txt
+banking-key.pem
+remote.sh

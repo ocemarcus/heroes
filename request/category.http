@@ -1,0 +1,11 @@
+POST /category 
+Host: localhost:3333
+Content-Type: application/json
+
+{
+    "name": "Marvel Comics"
+}
+###
+GET  /category
+Host: localhost:3333
+Content-Type: application/json

@@ -1,0 +1,12 @@
+POST /heroes 
+Host: localhost:3333
+Content-Type: application/json
+
+{
+    "name": "X-Men",
+    "category_id":"31a2e691-034b-4d38-8ab5-d032b5d1e794"
+}
+###
+GET  /heroes
+Host: localhost:3333
+Content-Type: application/json
