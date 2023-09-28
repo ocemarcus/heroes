@@ -18,4 +18,4 @@ COPY --from=builder /app /app
 
 EXPOSE 3000
 
-CMD ["build/server.js"]
+CMD ["build/index.js"]

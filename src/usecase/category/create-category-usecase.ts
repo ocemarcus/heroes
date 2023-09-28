@@ -15,7 +15,6 @@ export class CreateCategoryUseCase {
 
   public async execute(data: CreateCategoryRequest) {
     const category = CategoryEntity.create(data.name)
-
     await this.categoryRepository.save(category)
   }
 }

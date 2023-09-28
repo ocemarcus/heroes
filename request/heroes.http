@@ -4,7 +4,7 @@ Content-Type: application/json
 
 {
     "name": "X-Men",
-    "category_id":"31a2e691-034b-4d38-8ab5-d032b5d1e794"
+    "category_id":"d7f0cb02-3f12-4cee-9a3c-0e49bfb1f4bc"
 }
 ###
 GET  /heroes
